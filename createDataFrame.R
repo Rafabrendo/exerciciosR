@@ -43,3 +43,7 @@ penguins %>%
 
 penguins %>% 
   mutate(body_mass_kg=body_mass_g/1000, flipper_length_ma=flipper_length_mm/1000)
+
+pinguins2 <- arrange(penguins, bill_length_mm)
+penguins %>% arrange(bill_length_mm)
+
