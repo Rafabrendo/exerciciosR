@@ -1,0 +1,43 @@
+---
+title: "Estrutura Básica do RMardown"
+author: "Rafael"
+date: "2024-01-13"
+output: html_document
+---
+
+# Elementos básicos do RMarkdown
+
+## Títulos
+
+Os títulos são definidos pela presença e pela quantidade de #.\
+Um único \# define o título 1 (o maior na hierarquia), dois \# definem o título 2, e assim sucessivamente.\
+`# Título 1`\
+`## Título 2`
+
+# Título
+
+## Subtítulo
+
+### Sub-subtítulo
+
+## Formatação
+
+-   Para criar como se fosse um ul, com identação e um circulo do html, coloque - (hífen);
+
+-   Para que duas frases fiquem em linhas separadas, dê dois espaços entre elas;
+
+    Está é a primeira frase.
+
+    Está é a segunda frase.
+
+-   Os dois espaços funcionam também ára deixar uma linha em branco;
+
+-   Para deixar uma palavra em **negrito**, coloque-a entre quatro asterisco: `**negrito**`;
+
+-   Para deixar uma palavra em *itálico*, coloque-a entre asteriscos `*itálico*`;
+
+-   Para deixar caracteres ^sobrescritos^, coloque-os entre acentos circunflexos: `^1^`;
+
+-   Para deixar caracteres ~subscritos~, coloque-os entre til: `~1~`;
+
+-   Para destacar um termo como `código`, coloque-o entre crases (backticks): `` `código` ``
