@@ -41,3 +41,9 @@ Um único \# define o título 1 (o maior na hierarquia), dois \# definem o títu
 -   Para deixar caracteres ~subscritos~, coloque-os entre til: `~1~`;
 
 -   Para destacar um termo como `código`, coloque-o entre crases (backticks): `` `código` ``
+
+```{r}
+1+1
+
+
+```
