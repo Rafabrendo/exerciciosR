@@ -1,5 +1,8 @@
+library('palmerpenguins')
 data("penguins")
+library(ggplot2)
 View(penguins)
+
 ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g))
 
 ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, color=species))
@@ -8,7 +11,7 @@ ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mas
 
 ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g,color=species, shape=species))
 
-ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g,color=species, shape=species, size=species))
+ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g,color=species, shape=species, size=species))+scale_size_manual(values = c(1, 2, 5))
 
 ggplot(data = penguins)+geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g,alpha=species))
 
